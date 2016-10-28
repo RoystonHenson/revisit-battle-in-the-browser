@@ -5,6 +5,8 @@ require 'rspec'
 require 'coveralls'
 require 'simplecov'
 
+require 'features/web_helpers'
+
 ENV['RACK_ENV'] = 'test'
 
 require File.join(File.dirname(__FILE__), '..', './lib/app.rb')
