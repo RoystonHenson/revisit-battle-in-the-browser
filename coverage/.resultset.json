@@ -1,8 +1,21 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/roystonHenson/Projects/revists/battle-in-the-browser/spec/features/player_hit_point_management_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
       "/Users/roystonHenson/Projects/revists/battle-in-the-browser/spec/features/player_names_management_spec.rb": [
         1,
+        null,
         null,
         1,
         1,
@@ -19,6 +32,6 @@
         null
       ]
     },
-    "timestamp": 1477690771
+    "timestamp": 1477691892
   }
 }

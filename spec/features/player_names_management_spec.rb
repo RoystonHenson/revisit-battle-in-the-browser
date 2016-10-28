@@ -1,5 +1,6 @@
 require 'spec_helper'
 
+
 feature 'player name management' do
   scenario 'players enter names into form' do
     sign_in_and_play
