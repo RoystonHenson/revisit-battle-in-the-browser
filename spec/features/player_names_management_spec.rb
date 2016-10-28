@@ -15,7 +15,7 @@ feature 'player name management' do
     fill_in 'player2_name', with: 'Rory'
     click_button 'Fight!'
 
-    expect(page).to have_content('P1: Royston')
-    expect(page).to have_content('P2: Rory')
+    expect(page).to have_content('Royston')
+    expect(page).to have_content('Rory')
   end
 end
