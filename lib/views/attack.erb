@@ -7,11 +7,11 @@
   <body>
 
     <div>
-      <%= "#{$player_1.player_name} attacks #{$player_2.player_name}!" %>
+      <%= "#{$game.player_1.player_name} attacks #{$game.player_2.player_name}!" %>
     </div>
-    
+
     <div>
-      <%= "#{$player_2.player_name} has #{$player_1.attack($player_2)} hitponts left!" %>
+      <%= "#{$game.player_2.player_name} has #{$game.player_2.hitpoints} hitponts left!" %>
     </div>
     <div class="button">
       <a href="/play"><button type="submit" >Return to Battle!</button></a>

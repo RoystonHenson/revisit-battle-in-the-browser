@@ -8,4 +8,8 @@ class Game
     @player_2 = player_2
   end
 
+  def attack
+    @player_2.reduce_hitpoints
+  end
+
 end

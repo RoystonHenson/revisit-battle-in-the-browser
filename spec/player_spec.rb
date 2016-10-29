@@ -12,12 +12,6 @@ describe Player do
       expect(subject.hitpoints).to eq(100)
     end
   end
-  describe '#attack' do 
-    player_2 = Player.new('Rory')
-    it 'attack reduces player 2 HP by 10' do
-      subject.attack(player_2)
-      expect(player_2.hitpoints).to eq(90)
-    end
-  end
+  
 
 end
