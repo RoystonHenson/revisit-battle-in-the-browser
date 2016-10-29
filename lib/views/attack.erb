@@ -6,9 +6,16 @@
   </head>
   <body>
 
-
-    <%="#{$player_1.player_name} attacks #{$player_2.player_name}!" %>
-
+    <div>
+      <%= "#{$player_1.player_name} attacks #{$player_2.player_name}!" %>
+    </div>
+    
+    <div>
+      <%= "#{$player_2.player_name} has #{$player_1.attack($player_2)} hitponts left!" %>
+    </div>
+    <div class="button">
+      <a href="/play"><button type="submit" >Return to Battle!</button></a>
+    </div>
 
   </body>
 </html>

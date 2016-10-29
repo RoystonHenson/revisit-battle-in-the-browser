@@ -12,7 +12,7 @@ describe Player do
       expect(subject.hitpoints).to eq(100)
     end
   end
-  describe '#attack' do # do feature test
+  describe '#attack' do 
     player_2 = Player.new('Rory')
     it 'attack reduces player 2 HP by 10' do
       subject.attack(player_2)
