@@ -22,6 +22,7 @@ enable :sessions
 
   get '/attack' do
     $game.attack
+    
     erb :attack
   end
 

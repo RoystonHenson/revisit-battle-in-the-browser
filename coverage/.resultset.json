@@ -18,6 +18,14 @@
         1,
         1,
         null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
         null
       ],
       "/Users/roystonHenson/Projects/revists/battle-in-the-browser/spec/features/player_names_management_spec.rb": [
@@ -79,6 +87,6 @@
         null
       ]
     },
-    "timestamp": 1477779433
+    "timestamp": 1477817359
   }
 }
