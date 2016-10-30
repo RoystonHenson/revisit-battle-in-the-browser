@@ -15,5 +15,9 @@ describe Game do
       subject.attack
       expect(subject.defender.hitpoints).to eq(90)
     end
+    it "19 game attacks to reduce P2 HP to 0" do
+      19.times { subject.attack }
+      expect(subject.attack).to eq('You Lose!') 
+    end
   end
 end
